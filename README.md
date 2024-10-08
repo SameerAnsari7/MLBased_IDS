@@ -1,4 +1,5 @@
 # MLBased_IDS
+
 Developed Intrusion Detection System (IDS) using Machine Learning Algorithms for Enhanced Security
 
 # ML-Based Intrusion Detection System
@@ -8,10 +9,12 @@ Welcome to the ML-Based Intrusion Detection System (IDS) project! This applicati
 ## Features
 
 ### Machine Learning Algorithms
+
 - **Random Forest (RF)**: Achieved an impressive accuracy of **98%** in detecting intrusions.
 - **Support Vector Machine (SVM)**: Achieved a high accuracy of **95%** for intrusion classification.
 
 ### User Interface
+
 - **Intuitive UI**: Users can easily interact with the IDS, view alerts, and analyze potential threats.
 
 ## Tech Stack
@@ -20,6 +23,10 @@ Welcome to the ML-Based Intrusion Detection System (IDS) project! This applicati
 - **Scikit-learn**: For machine learning algorithms and model evaluation.
 - **Flask**: To create a web application and handle user requests.
 - **HTML/CSS/JavaScript**: For building the frontend interface.
+
+## Demo
+
+[![Watch the video](https://img.youtube.com/vi/95OfAh-9J3E/0.jpg)](https://youtu.be/95OfAh-9J3E)
 
 ## Getting Started
 
@@ -34,17 +41,20 @@ Welcome to the ML-Based Intrusion Detection System (IDS) project! This applicati
 ### Installation
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/SameerAnsari7/MLBased_IDS.git
    cd MLBased_IDS
    ```
 
 2. **Install dependencies**:
+
    ```bash
    pip install -r requirements.txt
    ```
 
 3. **Run the Application**:
+
    ```bash
    python app.py
    ```

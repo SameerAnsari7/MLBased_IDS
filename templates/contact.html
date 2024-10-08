@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./static/images/favicon.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <style src="./static/css/nav.css"></style>
+    <script src="./static/scripts/index.js"></script>
+    <title>Contact Us</title>
+    <style>
+      /* Add your CSS styles here */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #bbe2ec;
+      }
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 120px;
+        background-color: #fff6e9;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      h1,
+      p {
+        text-align: center;
+        color: #0d9276;
+      }
+      .contact-info {
+        margin-top: 20px;
+      }
+      .contact-info p {
+        margin-bottom: 10px;
+        color: #40a2e3;
+      }
+      .contact-info strong {
+        color: #0d9276;
+      }
+      a {
+        color: #0d9276;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-sm navbar-light fixed-top"
+      style="background-color: #e3f2fd"
+    >
+      <!-- Brand/logo -->
+      <ul class="navbar-nav mr-auto">
+        <li>
+          <a class="navbar-brand" href="/"
+            ><img
+              src="./static/images/logo.png"
+              alt="Logo"
+              style="height: 40px"
+          /></a>
+        </li>
+      </ul>
+
+      <!-- Links -->
+      <ul class="navbar-nav mr-right">
+        <li class="nav-item">
+          <a class="nav-link" href="/analysis">Preliminary Data Analysis</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About Us</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">Contact Us</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/features">Feature Descriptions</a>
+        </li>
+
+        <form class="form-inline">
+          <input
+            class="form-control mr-sm-2"
+            type="text"
+            placeholder="Search"
+            id="Search"
+          />
+        </form>
+        <button class="btn btn-outline-success" onclick="find_text()">
+          Search
+        </button>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <h1>Contact Us</h1>
+      <div class="contact-info">
+        <p>
+          <strong>Asfiya Yunus Shaikh (Roll No. 45)</strong><br />Email:
+          <a href="mailto:aysp.1999@gmail.com">aysp.1999@gmail.com</a>
+        </p>
+        <p>
+          <strong>Ansari Mohammad Sameer Shamsuddin (Roll No. 03)</strong
+          ><br />Email:
+          <a href="mailto:sa846023@gmail.com">sa846023@gmail.com</a>
+        </p>
+        <p>
+          <strong>Shaikh MD Umair Ismail (Roll No. 48)</strong><br />Email:
+          <a href="mailto:mohammedumairshaikh38@gmail.com"
+            >mohammedumairshaikh38@gmail.com</a
+          >
+        </p>
+        <p>
+          <strong>Syed Ghazi Abbas (Roll No. 58)</strong><br />Email:
+          <a href="mailto:sayedghazi072@gmail.com">sayedghazi072@gmail.com</a>
+        </p>
+        <p><strong>Guidance:</strong><br />Prof. Shahegul Afroz</p>
+      </div>
+    </div>
+  </body>
+</html>
